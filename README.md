@@ -40,6 +40,7 @@ Developed by: Sana Fathima H
 RegisterNumber:212223240145
 */
 ```
+```
 module ex02 (E,F,A,B,C,D);
 input A, B, C, D; output E,F;
 assign E = A || (B && C) || ((!B) && D);
