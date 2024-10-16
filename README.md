@@ -33,13 +33,18 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-![image](https://github.com/user-attachments/assets/b8454c74-a4bf-48e9-958b-fab7c888281a)
 ```
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
 Developed by: Sana Fathima H
 RegisterNumber:212223240145
 */
+```
+module ex02 (E,F,A,B,C,D);
+input A, B, C, D; output E,F;
+assign E = A || (B && C) || ((!B) && D);
+assign F=((!B) && C) || ( B && (!C) && (!D));
+endmodule
 
 ```
 **Truth Table**
@@ -47,11 +52,15 @@ RegisterNumber:212223240145
 
 
 **RTL realization**
-![image](https://github.com/user-attachments/assets/1dce6706-9038-4c21-9388-ff7cef80866e)
+![image](https://github.com/user-attachments/assets/1b078ed5-9806-4b43-9ff4-e8412ad2150a)
+
 
 
 **Output:**
-![image](https://github.com/user-attachments/assets/1234fbf4-cd0a-4541-899e-c286e6e3217a)
+RTL
+Timing Diagram
+![image](https://github.com/user-attachments/assets/26cc61a4-0859-4b1f-a3d6-d5fa0d404a69)
+
 
 
 
