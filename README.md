@@ -42,6 +42,10 @@ RegisterNumber:212223240145
 */
 
 ```
+**Truth Table**
+![image](https://github.com/user-attachments/assets/87a11a12-2d6e-43c7-9974-6b2668238b9e)
+
+
 **RTL realization**
 ![image](https://github.com/user-attachments/assets/1dce6706-9038-4c21-9388-ff7cef80866e)
 
