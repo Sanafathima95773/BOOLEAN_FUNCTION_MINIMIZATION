@@ -16,8 +16,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Theory**
 
-**Logic Diagram**
-![image](https://github.com/user-attachments/assets/adf0d9c3-c32b-4e97-ae7e-3a406da3e1fc)
+
 
 
 **Procedure**
@@ -43,25 +42,39 @@ RegisterNumber:212223240145
 */
 ```
 ```
-module ex02 (E,F,A,B,C,D);
-input A, B, C, D; output E,F;
-assign E = A || (B && C) || ((!B) && D);
-assign F=((!B) && C) || ( B && (!C) && (!D));
+module ex2(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d) | (a & b & ~c) | (~a & b & d));
 endmodule
 
+```
+```
+module ex2m2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2= ((~y&z)|(w&y)|(x&y));
+endmodule
 ```
 
 
 
 **RTL realization**
-![image](https://github.com/user-attachments/assets/1b078ed5-9806-4b43-9ff4-e8412ad2150a)
+F1
+![image](https://github.com/user-attachments/assets/f031e34e-340b-46b6-b7bd-835956e6cb71)
+
+F2
+![image](https://github.com/user-attachments/assets/2b6ece49-d879-47e9-884c-3f7daf819025)
 
 
 
 **Output:**
-RTL
-Timing Diagram
-![image](https://github.com/user-attachments/assets/26cc61a4-0859-4b1f-a3d6-d5fa0d404a69)
+F1
+![image](https://github.com/user-attachments/assets/6ecfa4a0-21eb-4de0-a2f7-9faf0cef6a6c)
+F2
+![image](https://github.com/user-attachments/assets/d100cb75-9733-40d1-8866-99ab1b092249)
+
+
 
 
 
