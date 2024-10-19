@@ -73,9 +73,13 @@ F2
 
 
 **Output:**
+
 F1
+
 ![image](https://github.com/user-attachments/assets/6ecfa4a0-21eb-4de0-a2f7-9faf0cef6a6c)
+
 F2
+
 ![image](https://github.com/user-attachments/assets/d100cb75-9733-40d1-8866-99ab1b092249)
 
 
