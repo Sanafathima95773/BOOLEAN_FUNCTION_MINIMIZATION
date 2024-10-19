@@ -14,11 +14,6 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Software – Quartus prime**
 
-**Theory**
-
-
-
-
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -56,6 +51,12 @@ output f2;
 assign f2= ((~y&z)|(w&y)|(x&y));
 endmodule
 ```
+**TRUTH TABLE**
+F1
+![image](https://github.com/user-attachments/assets/16141df2-8a17-4b47-b43d-188b529b9882)
+F2
+![image](https://github.com/user-attachments/assets/c6fb255d-6c5a-4243-a410-f8e7bfb9e430)
+
 
 
 
