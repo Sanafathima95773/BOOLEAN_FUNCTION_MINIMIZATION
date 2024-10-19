@@ -64,10 +64,13 @@ F2
 
 
 **RTL realization**
+
 F1
+
 ![image](https://github.com/user-attachments/assets/f031e34e-340b-46b6-b7bd-835956e6cb71)
 
 F2
+
 ![image](https://github.com/user-attachments/assets/2b6ece49-d879-47e9-884c-3f7daf819025)
 
 
