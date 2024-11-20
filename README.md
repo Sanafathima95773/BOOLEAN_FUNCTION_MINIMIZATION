@@ -37,15 +37,15 @@ RegisterNumber:212223240145
 */
 ```
 ```
-module ex2(a,b,c,d,f1);
+module de_exp_2(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
-assign f1=((~b & ~d) | (a & b & ~c) | (~a & b & d));
+assign f1=((~b & ~d) | (a & b & ~c) | (~a & b & d));
 endmodule
 
 ```
 ```
-module ex2m2(w,x,y,z,f2);
+module proj23(w,x,y,z,f2);
 input w,x,y,z;
 output f2;
 assign f2= ((~y&z)|(w&y)|(x&y));
@@ -54,11 +54,13 @@ endmodule
 **TRUTH TABLE**
 
 F1
-![image](https://github.com/user-attachments/assets/16141df2-8a17-4b47-b43d-188b529b9882)
+![image](https://github.com/user-attachments/assets/1557f0c2-fbb6-42e1-b1f1-dd1cc245dbde)
+
 
 F2
 
-![image](https://github.com/user-attachments/assets/c6fb255d-6c5a-4243-a410-f8e7bfb9e430)
+![image](https://github.com/user-attachments/assets/e691dceb-29f4-4973-8113-5782cb38f5ec)
+
 
 
 
@@ -67,7 +69,8 @@ F2
 
 F1
 
-![image](https://github.com/user-attachments/assets/f031e34e-340b-46b6-b7bd-835956e6cb71)
+![image](https://github.com/user-attachments/assets/390dee0a-6285-4af9-94f3-aa0d18d09bd1)
+
 
 F2
 
@@ -79,11 +82,14 @@ F2
 
 F1
 
-![image](https://github.com/user-attachments/assets/6ecfa4a0-21eb-4de0-a2f7-9faf0cef6a6c)
+![image](https://github.com/user-attachments/assets/08ba5e9e-087e-48dc-acbd-6861f4582a0c)
+
 
 F2
 
-![image](https://github.com/user-attachments/assets/d100cb75-9733-40d1-8866-99ab1b092249)
+![image](https://github.com/user-attachments/assets/ddfce599-fb32-4695-bd54-e4296250389f)
+
+
 
 
 
