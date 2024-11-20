@@ -59,7 +59,8 @@ F1
 
 F2
 
-![Uploading image.png…]()
+![Screenshot 2024-11-20 160948](https://github.com/user-attachments/assets/d6788986-8f5e-4ffb-85de-18ee9df1fb0b)
+
 
 
 
